@@ -9,7 +9,7 @@ import im from "./Contact us-amico.png";
 import wc from "./Social ideas-cuate.png"
 import im2 from "./Learning-bro.png";
 import AOS from "aos";
-import {BsChevronDoubleUp} from "react-icons/bs";
+
 import "aos/dist/aos.css";
 AOS.init();
 
@@ -186,7 +186,7 @@ class Mainpage extends React.Component {
 <br></br>
 
 </div>
-<div><center><h1>BACK TO TOP <a style={{color:"black"}} href="#welcome"> <BsChevronDoubleUp/></a></h1></center><br></br><br></br></div>
+<div><center><h1>BACK TO TOP <a style={{color:"black"}} href="#welcome">^</a></h1></center><br></br><br></br></div>
 
 </div>
     )}
